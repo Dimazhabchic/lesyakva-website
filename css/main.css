@@ -1,0 +1,559 @@
+html {
+    font-size: 70%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #FCEDDA;
+}
+
+.container {
+    background-image: url(../Images/Homepage/Main/bg-paper.png);
+    background-size: cover;
+} 
+
+.wrapper {
+    max-width: 1300px;
+    margin: 0 auto;
+    
+}
+
+
+
+/* Header section */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 0;
+    
+}
+
+h2 {
+    all: unset;
+}
+
+.geo {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    font-size: 2.4rem;
+    gap: 0.1em;
+}
+
+.geo a img {
+    scale: 80%;
+}
+
+.right-col-header {
+    width: 50%;
+    display: flex;
+    gap: 1.5em;
+    align-items: center;
+}
+
+nav {
+    max-height: 40px;
+    height: 40px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 3em;
+    margin: 0;
+    padding: 0%;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 2.4rem;
+}
+
+.donate {
+    border: 3px solid #52A6A7;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #52A6A7;
+    text-decoration: none;
+    border-radius: 1.9em;
+    padding: 0.47em 1.45em;
+    align-items: center;
+    text-align: center;
+    width: 145px;
+}
+
+.social {
+    display: flex;
+    gap: .5em;
+}
+
+
+
+/* Hero section */
+
+
+
+main {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin-top: 10em;
+    padding-bottom: 10em;
+}
+
+.left-col {
+    width: 50%;
+    display: grid;
+    gap: 1.5em;
+}
+
+.right-col {
+    flex-grow: 1;
+    display: flex;
+}
+
+/* Left col section */
+
+h1 {
+    display: grid;
+    font-weight: 800;
+    line-height: 50px;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+
+.lesya {
+    font-size: 0;
+}
+
+.kva {
+    font-size: 0;
+}
+
+.color1 {
+    color: #222222;
+    -webkit-text-fill-color: #52A6A7;
+    -webkit-text-stroke-width: 1px;
+    font-size: 6.4rem;
+}
+
+.color2 {
+    color: #222222;
+    -webkit-text-fill-color: #FFC96D;
+    -webkit-text-stroke-width: 1px;
+    font-size: 6.4rem;
+}
+
+.color3 {
+    color: #222222;
+    -webkit-text-fill-color: #F59586;
+    -webkit-text-stroke-width: 1px;
+    font-size: 6.4rem;
+}
+
+.color4 {
+    color: #222222;
+    -webkit-text-fill-color: #DD663B;
+    -webkit-text-stroke-width: 1px;
+    font-size: 6.4rem;
+}
+
+.color5 {
+    color: #222222;
+    -webkit-text-fill-color: #FCEDDA;
+    -webkit-text-stroke-width: 1px;
+    font-size: 6.4rem;
+}
+
+h3 {
+    font-size: 2.4rem;
+    font-weight: normal;
+    margin: 0;
+    
+}
+
+.cta-btn {
+    display: flex;
+    padding: 1.5em 0;
+}
+
+.primary-btn {
+    border: 1px solid #222222;
+    background-color: #DD663B;
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: #FCEDDA;
+    text-decoration: none;
+    border-radius: 1.9em;
+    padding: 0.5em 4.35em;
+    align-items: center;
+}
+
+/* Right col section */
+
+.top-anim {
+    width: 100%;
+}
+
+
+
+/* Second section */
+
+
+
+div.second-sec {
+    display: grid;
+    gap: 3em;
+    padding: 9em 0;
+    background-color: #FFC96D;
+}
+
+.second-main {
+    font-size: 3.6rem;
+    font-weight: 800;
+    line-height: 48px;
+    margin: 0;
+    color: #222222;
+    -webkit-text-fill-color: #DD663B;
+    -webkit-text-stroke-width: 1px;
+    text-align: center;
+}
+
+.second-minor {
+    font-size: 2.4rem;
+    font-weight: normal;
+    margin: 0;
+    text-align: center;
+}
+
+.flower {
+    width: 10%;
+    justify-self: center;
+}
+
+
+
+/* Third section */
+
+
+
+.third-sec {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.soc-sec {
+    max-width: 500px;
+    display: flex;
+    flex-flow: column;
+    flex-grow: unset;
+    gap: 30px;
+    padding: 4.5em 0;
+}
+
+.soc-sec p {
+    font-size: 2.4rem;
+    font-weight: normal;
+    margin: 0;
+    color: #DD663B;
+}
+
+.social-btns {
+    display: grid;
+    justify-content: center;
+    gap: 1.5em;
+}
+
+.insta-btn {
+    border: 3px solid #F59586;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #F59586;
+    text-decoration: none;
+    border-radius: 1.9em;
+    padding: 0.4em 1.4em;
+    align-items: center;
+    text-align: center;
+    width: 140px;
+}
+
+.telegram-btn {
+    border: 3px solid #52A6A7;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #52A6A7;
+    text-decoration: none;
+    border-radius: 1.9em;
+    padding: 0.4em 1.4em;
+    align-items: center;
+    text-align: center;
+    width: 140px;
+}
+
+.youtube-btn {
+    border: 3px solid #B24F47;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #B24F47;
+    text-decoration: none;
+    border-radius: 1.9em;
+    padding: 0.4em 1.4em;
+    align-items: center;
+    text-align: center;
+    width: 140px;
+}
+
+.girl {
+    width: 232px;
+    height: 303px;
+}
+
+.boy {
+    width: 238px;
+    height: 207px;
+    align-self: center;
+    margin-top: 50px;
+}
+
+
+
+/* Slogan section */
+
+
+
+.slogan {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    position: relative;
+}
+
+.slogan::before {
+    background-image: url(../Images/Homepage/Main/bg.png);
+    background-size: cover;
+    content: '';
+    position: absolute;
+    inset: 0;
+    opacity: 0.6;
+}
+
+h4 {
+    display: grid;
+    font-weight: 800;
+    line-height: 77px;
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    isolation: isolate;
+    letter-spacing: normal;
+}
+
+.slogan1 {
+    font-size: 4.8rem;
+}
+
+.slogan2 {
+    font-size: 4.8rem;
+}
+
+.slogan3 {
+    font-size: 4.8rem;
+}
+
+.slogan4 {
+    font-size: 4.8rem;
+}
+
+.color11 {
+    color: #222222;
+    -webkit-text-fill-color: #52A6A7;
+    -webkit-text-stroke-width: 1px;
+    
+}
+
+.color12 {
+    color: #222222;
+    -webkit-text-fill-color: #FFC96D;
+    -webkit-text-stroke-width: 1px;
+    
+}
+
+.color13 {
+    color: #222222;
+    -webkit-text-fill-color: #F59586;
+    -webkit-text-stroke-width: 1px;
+    
+}
+
+.color14 {
+    color: #222222;
+    -webkit-text-fill-color: #DD663B;
+    -webkit-text-stroke-width: 1px;
+    
+}
+
+.color15 {
+    color: #222222;
+    -webkit-text-fill-color: #FCEDDA;
+    -webkit-text-stroke-width: 1px;
+    
+}
+
+.orange {
+    width: 170px;
+    height: 121px;
+    transform: rotate(65deg);
+    align-self: self-end;
+    isolation: isolate;
+}
+
+.star {
+    width: 140px;
+    height: 135px;
+    padding-left: 1.5em;
+    isolation: isolate;
+}
+
+
+
+/* Footer section */
+
+
+
+footer {
+    display: grid;
+    justify-content: center;
+    gap: 60px;
+    margin: 75px 0;
+}
+
+.col1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 140px;
+    justify-content: center;
+}
+
+.col2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 140px;
+    justify-content: center;
+}
+
+.how {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 20px;
+    width: 250px;
+}
+
+.donat-footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 20px;
+    width: 250px;
+}
+
+.qa-sec {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 20px;
+    width: 250px;
+}
+
+.main-qa {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 20px;
+    width: 250px;
+}
+
+.contact-info {
+    width: 250px;
+}
+
+.friends {
+    width: 250px;
+}
+
+.txt-main {
+    font-size: 2.4rem;
+    font-weight: 100%;
+    margin: 0;
+    color: #DD663B;
+}
+
+.txt-main2 {
+    font-size: 2rem;
+    font-weight: 100%;
+    margin: 0;
+    color: #DD663B;
+}
+
+.txt-min {
+    font-size: 1.6rem;
+    font-weight: normal;
+    margin: 0;
+    color: #222222;
+}
+
+.txt-min2 {
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin: 0;
+    color: #222222;
+}
+
+.monobank-btn {
+    border: 3px solid #222222;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #222222;
+    text-decoration: none;
+    border-radius: 1.9em;
+    padding: 0.4em 1.4em;
+    align-items: center;
+    text-align: center;
+    width: 140px;
+}
+
+.df-maintext {
+    font-size: 2.4rem;
+    font-weight: normal;
+    margin: 0;
+    color: #F59586;
+}
+
+.qa-maintext {
+    font-size: 2.4rem;
+    font-weight: normal;
+    margin: 0;
+    color: #52A6A7;
+}
+
+.friends-txt {
+    font-size: 2.4rem;
+    font-weight: 800;
+    margin: 0;
+    color: #222222;
+    -webkit-text-fill-color: #FFC96D;
+    -webkit-text-stroke-width: 1px;
+}
+
+.lemon {
+    width: 50%;
+}
+
